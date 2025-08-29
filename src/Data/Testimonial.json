@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Amit Sharma",
+        "location": "Delhi",
+        "message": "The stay was magical ✨, hospitality was beyond expectations.",
+        "rating": 5,
+        "image": "/images/testimonials/amit.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sara Khan",
+        "location": "Mumbai",
+        "message": "Best houseboat experience, felt like royalty on water.",
+        "rating": 5,
+        "image": "/images/testimonials/sara.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sara Khan",
+        "location": "Mumbai",
+        "message": "Best houseboat experience, felt like royalty on water.",
+        "rating": 5,
+        "image": "/images/testimonials/sara.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sara Khan",
+        "location": "Mumbai",
+        "message": "Best houseboat experience, felt like royalty on water.",
+        "rating": 5,
+        "image": "/images/testimonials/sara.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sara Khan",
+        "location": "Mumbai",
+        "message": "Best houseboat experience, felt like royalty on water.",
+        "rating": 5,
+        "image": "/images/testimonials/sara.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Sara Khan",
+        "location": "Mumbai",
+        "message": "Best houseboat experience, felt like royalty on water.",
+        "rating": 5,
+        "image": "/images/testimonials/sara.jpg"
+    }
+]
