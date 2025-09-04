@@ -1,5 +1,4 @@
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 export default function Contact() {
@@ -26,17 +25,17 @@ export default function Contact() {
                         Luxury Houseboats on Nigeen Lake, Srinagar
                     </p>
                     <div className="mt-6 flex justify-center gap-4">
-                        <Link
-                            to="/booking"
+                        <a
+                            href="tel:+919876543210"
                             className="px-6 py-3 rounded-2xl bg-[#f5c934] text-gray-900 font-semibold hover:bg-yellow-400 transition"
                         >
-                            Book Now
-                        </Link>
+                            Call Now
+                        </a>
                         <Link
-                            to="/explore"
+                            to="/super-deluxe"
                             className="px-6 py-3 rounded-2xl bg-white/80 text-gray-900 font-semibold hover:bg-white transition"
                         >
-                            Explore
+                            View Rooms
                         </Link>
                     </div>
                 </motion.div>

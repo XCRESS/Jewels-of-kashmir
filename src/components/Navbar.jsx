@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
-export default function Header() {
+export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState(null);
 
@@ -112,9 +112,25 @@ export default function Header() {
             {isOpen && (
                 <div className="lg:hidden bg-white shadow-md py-4 space-y-3 text-gray-700 font-medium px-6">
                     <NavLink to="/" className="block hover:text-rose-600">Home</NavLink>
-                    <NavLink to="/houseboats" className="block hover:text-rose-600">Houseboats</NavLink>
-                    <NavLink to="/tours" className="block hover:text-rose-600">Tours</NavLink>
-                    <NavLink to="/guide" className="block hover:text-rose-600">Travel Guide</NavLink>
+                    <div className="space-y-2">
+                        <p className="text-sm font-semibold text-gray-800">Houseboats</p>
+                        <NavLink to="/super-deluxe" className="block pl-4 hover:text-rose-600">Super Deluxe</NavLink>
+                        <NavLink to="/ac-royal-suite" className="block pl-4 hover:text-rose-600">AC Royal Suite</NavLink>
+                        <NavLink to="/nageen-suite" className="block pl-4 hover:text-rose-600">Nageen Suite</NavLink>
+                        <NavLink to="/premium-lake" className="block pl-4 hover:text-rose-600">Premium Lake View</NavLink>
+                    </div>
+                    <div className="space-y-2">
+                        <p className="text-sm font-semibold text-gray-800">Tours</p>
+                        <NavLink to="/gulmarg" className="block pl-4 hover:text-rose-600">Gulmarg</NavLink>
+                        <NavLink to="/pahalgam" className="block pl-4 hover:text-rose-600">Pahalgam</NavLink>
+                        <NavLink to="/sonmarg" className="block pl-4 hover:text-rose-600">Sonmarg</NavLink>
+                    </div>
+                    <div className="space-y-2">
+                        <p className="text-sm font-semibold text-gray-800">Travel Guide</p>
+                        <NavLink to="/attraction" className="block pl-4 hover:text-rose-600">Attractions</NavLink>
+                        <NavLink to="/local-cuisine" className="block pl-4 hover:text-rose-600">Local Cuisine</NavLink>
+                        <NavLink to="/culture" className="block pl-4 hover:text-rose-600">Culture</NavLink>
+                    </div>
                     <NavLink to="/blog" className="block hover:text-rose-600">Blog</NavLink>
                     <NavLink to="/contact" className="block hover:text-rose-600">Contact</NavLink>
                 </div>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/D:\\kunal-JOK/**)",
+      "Read(/D:\\kunal-JOK/**)",
+      "Read(/D:\\kunal-JOK\\src/**)",
+      "Read(/D:\\kunal-JOK\\src\\components/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

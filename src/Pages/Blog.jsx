@@ -33,7 +33,6 @@
 
 // export default Blog
 
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -232,7 +231,7 @@ export default function BlogPage() {
                                 2
                             </button>
                             <button
-                                onClick={() => swiperRef.current?.slideNext(s)}
+                                onClick={() => swiperRef.current?.slideNext()}
                                 className="px-4 py-2 bg-white shadow rounded-lg hover:bg-emerald-50"
                             >
                                 Next →

@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Amit Sharma",
         "location": "Delhi",
-        "message": "The stay was magical ✨, hospitality was beyond expectations.",
+        "message": "The stay was magical ✨, hospitality was beyond expectations. The houseboat experience on Nigeen Lake was absolutely breathtaking!",
         "rating": 5,
         "image": "/images/testimonials/amit.jpg"
     },
@@ -11,40 +11,40 @@
         "id": 2,
         "name": "Sara Khan",
         "location": "Mumbai",
-        "message": "Best houseboat experience, felt like royalty on water.",
+        "message": "Best houseboat experience ever! Felt like royalty on water. The authentic Kashmiri cuisine was incredible.",
         "rating": 5,
         "image": "/images/testimonials/sara.jpg"
     },
     {
         "id": 3,
-        "name": "Sara Khan",
-        "location": "Mumbai",
-        "message": "Best houseboat experience, felt like royalty on water.",
+        "name": "Rajesh Patel",
+        "location": "Ahmedabad",
+        "message": "Perfect blend of luxury and tradition. The views from our room were stunning and the staff was so welcoming.",
         "rating": 5,
-        "image": "/images/testimonials/sara.jpg"
+        "image": "/images/testimonials/rajesh.jpg"
     },
     {
         "id": 4,
-        "name": "Sara Khan",
-        "location": "Mumbai",
-        "message": "Best houseboat experience, felt like royalty on water.",
+        "name": "Priya Singh",
+        "location": "Bangalore",
+        "message": "A once-in-a-lifetime experience! The sunset views over Dal Lake were mesmerizing. Highly recommended!",
         "rating": 5,
-        "image": "/images/testimonials/sara.jpg"
+        "image": "/images/testimonials/priya.jpg"
     },
     {
         "id": 5,
-        "name": "Sara Khan",
-        "location": "Mumbai",
-        "message": "Best houseboat experience, felt like royalty on water.",
+        "name": "Mohammed Ali",
+        "location": "Hyderabad",
+        "message": "Exceptional service and beautiful surroundings. The traditional Kashmiri hospitality made our stay unforgettable.",
         "rating": 5,
-        "image": "/images/testimonials/sara.jpg"
+        "image": "/images/testimonials/mohammed.jpg"
     },
     {
         "id": 6,
-        "name": "Sara Khan",
-        "location": "Mumbai",
-        "message": "Best houseboat experience, felt like royalty on water.",
+        "name": "Anjali Gupta",
+        "location": "Pune",
+        "message": "Jewels of Kashmir exceeded all our expectations. The peaceful lake setting and luxury amenities were perfect.",
         "rating": 5,
-        "image": "/images/testimonials/sara.jpg"
+        "image": "/images/testimonials/anjali.jpg"
     }
 ]

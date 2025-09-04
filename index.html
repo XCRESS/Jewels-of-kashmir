@@ -4,7 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta name="description" content="Jewels of Kashmir - Luxury houseboats on Nigeen Lake, Srinagar. Experience traditional Kashmiri hospitality with modern comfort." />
+    <meta name="keywords" content="Kashmir houseboats, Nigeen Lake, Srinagar, luxury accommodation, Kashmir tourism" />
+    <title>Jewels of Kashmir - Luxury Houseboats on Nigeen Lake</title>
+    
+    <!-- Critical performance optimizations -->
+    
+    <!-- Inline critical CSS for faster rendering -->
+    <style>
+      /* Critical above-the-fold styles */
+      #root { min-height: 100vh; }
+      .hero-section { 
+        background-image: url(/hero_image.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
   </head>
   <body>
     <div id="root"></div>

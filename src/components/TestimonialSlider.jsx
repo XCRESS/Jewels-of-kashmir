@@ -11,8 +11,8 @@ const TestimonialSlider = ({ TestimonialData }) => {
             spaceBetween={30}
             loop={true}
             grabCursor={true}
-            autoplay={{ delay: 0, disableOnInteraction: false }}
-            speed={6000} // smoother continuous speed
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            speed={1000} // smoother transition speed
             breakpoints={{
                 320: { slidesPerView: 1 },   // Mobile
                 640: { slidesPerView: 1 },   // Small tablets
